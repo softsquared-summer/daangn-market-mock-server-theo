@@ -43,3 +43,151 @@ git status
 git add.
 got commit
 git commit
+cd /usr/theo/
+git init
+cd ~
+git init
+cd /usr/theo/
+git clone https://github.com/softsquared-summer/daangn-market-mock-server-theo.git
+git init
+git status
+mysql -u root -p
+git status
+git add.
+git add .
+git status
+git commit -m "theo"
+git push
+git push theo
+git push daangn-market-mock-server-theo/
+-- 테이블 순서는 관계를 고려하여 한 번에 실행해도 에러가 발생하지 않게 정렬되었습니다.
+-- User Table Create SQL
+CREATE TABLE User
+(     `userNo`      INT             NOT NULL    AUTO_INCREMENT, ;     `profileUrl`  VARCHAR(200)    NOT NULL, 
+);
+-- User Table Create SQL
+CREATE TABLE Location
+(     `locationNo`  INT             NOT NULL    AUTO_INCREMENT, ;     `userNo`      INT             NOT NULL, ;     `x_axis`      FLOAT           NOT NULL    DEFAULT 0.0, ;     `y_axis`      FLOAT           NOT NULL    DEFAULT 0.0, ;     `address`     VARCHAR(100)    NOT NULL, 
+);
+-- User Table Create SQL
+CREATE TABLE Product
+(     `productNo`     INT            NOT NULL    AUTO_INCREMENT, ;     `updatedAt`     TIMESTAMP      NULL        DEFAULT current_timestamp on update current_timestamp, ;     `price`         INT            NOT NULL, ;     `userNo`        INT            NOT NULL, ;     `categoriesNo`  VARCHAR(45)    NOT NULL, 
+);
+-- User Table Create SQL
+CREATE TABLE ChatRoom
+(     `chatroomNo`  INT          NOT NULL    AUTO_INCREMENT, ;     `createdAt`   TIMESTAMP    NOT NULL    DEFAULT current_timtstamp, ;     `productNo`   INT          NOT NULL, ;     PRIMARY KEY (chatroomNo)
+);
+-- User Table Create SQL
+CREATE TABLE Comment
+(     `commentNo`     INT          NOT NULL    AUTO_INCREMENT, ;     `productNo`     INT          NOT NULL, ;     `depth`         INT          NOT NULL    DEFAULT 1 COMMENT '1:댓글/2:대댓글/3:대대댓글 ..', ;     `group`         INT          NOT NULL    COMMENT '댓글에 따른 그룹', ;     `commentOrder`  INT          NOT NULL    COMMENT '그룹내 코멘트 순서', ;     `contents`      TEXT         NOT NULL, ;     `updatedAt`     TIMESTAMP    NULL        DEFAULT current_timestamp on update current_timestamp, ;     PRIMARY KEY (commentNo)
+);
+-- User Table Create SQL
+CREATE TABLE ChatMsg
+(     `packetNo`    INT            NOT NULL    AUTO_INCREMENT, ;     `type`        VARCHAR(45)    NOT NULL    DEFAULT 'text' COMMENT 'text,image', 
+);
+-- User Table Create SQL
+CREATE TABLE Report
+(     `reportNo`   INT    NOT NULL    AUTO_INCREMENT, ;     `productNo`  INT    NOT NULL, ;     `userNo`     INT    NOT NULL, ;     PRIMARY KEY (reportNo)
+);
+-- User Table Create SQL
+CREATE TABLE Favorite
+(     `favoriteNo`  INT    NOT NULL    AUTO_INCREMENT, ;     `productNo`   INT    NOT NULL, ;     `userNo`      INT    NOT NULL, ;     PRIMARY KEY (favoriteNo)
+);
+-- User Table Create SQL
+CREATE TABLE ChatUser
+(     `chatuserNo`  INT    NOT NULL    AUTO_INCREMENT, ;     `chatroomNo`  INT    NOT NULL, ;     PRIMARY KEY (chatuserNo)
+);
+-- User Table Create SQL
+CREATE TABLE ProductImage
+(     `productImageNo`  INT             NOT NULL    AUTO_INCREMENT, ;     `imageUrl`        VARCHAR(200)    NOT NULL, 
+);
+-- User Table Create SQL
+CREATE TABLE Categories
+(     `categoriesNo`  INT            NOT NULL    AUTO_INCREMENT, ;     `categories`    VARCHAR(45)    NOT NULL, 
+);
+-- User Table Create SQL
+CREATE TABLE PhoneCert
+(     `phonecertNo`  INT            NOT NULL    AUTO_INCREMENT, ;     `certNo`       INT            NOT NULL    COMMENT '4자리 랜덤변수 인증번호', ;     `phoneNum`     VARCHAR(45)    NOT NULL, 
+);
+clear
+git status
+git add .
+git status
+git push master
+cd ~
+chmod -R 777 .
+ls
+git add .
+git status
+git commit -m "theo"
+git push https://github.com/softsquared-summer/daangn-market-mock-server-theo.git;
+git config --global user.name "ydab1996"
+git config --global user.email ydab1996@naver.com
+git init
+git status
+git add .
+git commit -m "theo"
+git remote add origin https://github.com/softsquared-summer/daangn-market-mock-server-theo.git
+git push -u origin master
+cd /usr/
+ls
+rmdir theo;
+cd theo
+ls
+mkdir daangn-market-mock-server-theo/
+cd ..
+mkdir all theo
+rmdir all theo
+cd ~
+git log
+git push
+git push origin master
+git pull orgin master
+git push orgin master
+git add .
+mysql -u root -p
+git init
+git add .
+git status
+mysql -u root -p
+git status
+git commit
+git push
+git commit
+git status
+git commit -m "sql";
+git status
+git add .
+git status
+git commit
+git status
+git commit -m "mysql"
+git status
+git push
+git push https://github.com/softsquared-summer/daangn-market-mock-server-theo.git;
+git push theo https://github.com/softsquared-summer/daangn-market-mock-server-theo.git;
+git push https://github.com/softsquared-summer/daangn-market-mock-server-theo.git;
+git status
+git push origin master
+git add .
+git status
+mysql -u root -p
+git status
+git add .
+git status
+git commit
+git commit -m "theo"
+git remote add orgin https://github.com/softsquared-summer/daangn-market-mock-server-theo.git
+git push -u origin master
+git push
+git push origin
+cd ~
+ls
+cd daangn-market-mock-server-theo/
+ls
+cd ~
+cd /usr/
+ls
+mkdir theo
+ls
+sudo su -
