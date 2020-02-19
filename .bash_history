@@ -191,3 +191,23 @@ ls
 mkdir theo
 ls
 sudo su -
+git status
+git add .
+mysql -u root -p
+git status
+git add .
+git status
+git add .
+git status
+git commit -m "dummy and put query"
+git push
+git push origin master
+add .
+git add .
+mysql -u root -p
+git status;
+git commit -m "modify Used_One list search API"
+git add .
+git commit -m "modify Used_One list search API"
+git push origin master
+git add .
