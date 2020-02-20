@@ -211,3 +211,108 @@ git add .
 git commit -m "modify Used_One list search API"
 git push origin master
 git add .
+service nginx restart
+git status;
+git add .
+git status;
+git commit -m "2server and complete messageapi"
+git push origin master
+apt-get update
+apt-get install certbot
+apt-get update
+apt-get install python-certbot-nginx
+sudo add-apt-repository ppa:certbot/certbot
+apt-get update
+apt-get install python-certbot-nginx
+sudo certbot --nginx -d blog.ydab.woobi.co.kr -d dmarket.ydab.woobi.co.kr
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+certbot certnoly --webroot --webroot-path=/var/www/html/api-server -d blog.ydab.woobi.co.kr
+certbot --nginx --standalone -d blog.ydab.woobi.co.kr -d dmarket.ydab.woobi.co.kr
+certbot-auto certnoly --standalone -d blog.ydab.woobi.co.kr -d dmarket.ydab.woobi.co.kr
+certbot-auto certonly --standalone -d blog.ydab.woobi.co.kr -d dmarket.ydab.woobi.co.kr
+certbot certonly --standalone -d blog.ydab.woobi.co.kr -d dmarket.ydab.woobi.co.kr
+vi /etc/nginx/sites-available/default 
+service nginx restart
+certbot certonly --standalone -d blog.ydab.woobi.co.kr -d dmarket.ydab.woobi.co.kr
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+cd /etc/letsencrypt/live/
+ls
+cd blog.ydab.woobi.co.kr/
+ls
+cd ~
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+journalctl -xe
+vi /etc/nginx/sites-available/default 
+service nginx restart
+journalctl -xe
+vi /etc/nginx/sites-available/default 
+service nginx restart
+sudo nginx -t
+vi /etc/nginx/sites-available/default 
+sudo nginx -t
+service nginx restart
+sudo certbot --nginx -d blog.ydab.woobi.co.kr -d dmarket.ydab.woobi.co.kr
+apt-get install certbot
+sudo certbot --nginx -d blog.ydab.woobi.co.kr -d dmarket.ydab.woobi.co.kr
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+journalctl -xe
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+mysql -u root -p
+git status
+git add .
+git commit -m "create User"
+git push origin master
+mysql -u root -p
+apt-get install curl
+service nginx restart
+curl --version
+cd /var/www/html/
+vi phpinfo.php
+cd ~
+php -v
+sudo apt-get install php7.0-curl
+service nginx restart
+git status
+mysql -u root -p
+git status
+git add.
+git add .
+git status
+git commit -m "login to message certificate"
+git push origin master
+git add .
+mysql -u root -p
+cd ~
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+vi /etc/nginx/sites-available/default 
+service nginx restart
+cd /var/www/html/dang-market/
+su ubuntu
