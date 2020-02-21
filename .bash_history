@@ -316,3 +316,7 @@ vi /etc/nginx/sites-available/default
 service nginx restart
 cd /var/www/html/dang-market/
 su ubuntu
+git status
+git add .
+git commit -m "Login"
+git push origin master
