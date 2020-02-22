@@ -320,3 +320,71 @@ git status
 git add .
 git commit -m "Login"
 git push origin master
+.git ignore
+git ignore
+git ignore .
+git --help
+git add .
+git status
+git commit -m "modify gitignore"
+git push origin master
+cd /var/www/html/
+git clone https://github.com/softsquared-summer/daangn-market-mock-server-theo.git
+chmod -R 777 .
+cd api-server/
+git add .
+git push origin master;
+git init
+git commit -m "api-server"
+git add .
+git commit -m "api-server"
+git push origin master
+git clone https://github.com/softsquared-summer/daangn-market-mock-server-theo.git
+git status
+git add .
+git commit -m "api-server"
+git push origin master
+git push
+git push master
+git push
+git push apiserver
+git push apiserver master
+git init
+git push api-server https://github.com/softsquared-summer/daangn-market-mock-server-theo.git
+git push .
+git push
+git push https://github.com/softsquared-summer/daangn-market-mock-server-theo.git
+git push master
+git push master master
+git push origin master
+cd ~
+mysql -u root -p
+cd /var/www/html/api-server/
+chmod -R 777 .
+chmod -R 000 .
+cd ..
+chmod -R 000 .
+cd /var/www/html/api-server/
+chmod -R 777 .
+cd ..
+chmod -R 777 .
+mysql -u root -p
+git status
+cd ~
+git status
+git add .
+git commit -m "GET list"
+git push origin master
+git status
+git add .
+git commit -m "modify indexcontroller for isValidcategoriesNo"
+git add .
+git commit -m "modify indexcontroller for isValidcategoriesNo"
+git commit -m "modify"
+git commit
+git status
+git add .
+git commit -m "modify indexcontroller for isValidcategoriesNo"
+git add .
+git add daangn-market-mock-server-theo/
+git commit -m "modify indexcontroller for isValidcategoriesNo"
