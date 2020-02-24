@@ -388,3 +388,15 @@ git commit -m "modify indexcontroller for isValidcategoriesNo"
 git add .
 git add daangn-market-mock-server-theo/
 git commit -m "modify indexcontroller for isValidcategoriesNo"
+mysql -u root -p
+git status
+git add .
+git commit -m "product detail"
+git push origin master
+mysql -u root -p
+service nginx restart
+mysql --version
+mysql -u root -p
+sudo su -
+mysql version --
+sudo su -

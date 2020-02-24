@@ -8,6 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
 :wq
 
 # Search String History (newest to oldest):
@@ -21,20 +22,24 @@
 # Registers:
 
 # File marks:
-'0  141  0  /etc/nginx/sites-available/default
-'1  138  0  /etc/nginx/sites-available/default
-'2  111  0  /etc/nginx/sites-available/default
-'3  129  0  /etc/nginx/sites-available/default
-'4  119  1  /etc/nginx/sites-available/default
-'5  122  34  /etc/nginx/sites-available/default
-'6  121  14  /etc/nginx/sites-available/default
-'7  123  18  /etc/nginx/sites-available/default
-'8  127  71  /etc/nginx/sites-available/default
-'9  131  34  /etc/nginx/sites-available/default
+'0  192  39  /var/log/nginx/error.log
+'1  1  0  /var/log/nginx/error.log
+'2  3  0  /var/log/nginx/error.log
+'3  131  24  /etc/nginx/sites-available/default
+'4  141  0  /etc/nginx/sites-available/default
+'5  138  0  /etc/nginx/sites-available/default
+'6  111  0  /etc/nginx/sites-available/default
+'7  129  0  /etc/nginx/sites-available/default
+'8  119  1  /etc/nginx/sites-available/default
+'9  122  34  /etc/nginx/sites-available/default
 
 # Jumplist (newest first):
--'  141  0  /etc/nginx/sites-available/default
+-'  192  39  /var/log/nginx/error.log
+-'  1  0  /var/log/nginx/error.log
+-'  3  0  /var/log/nginx/error.log
+-'  131  24  /etc/nginx/sites-available/default
 -'  1  0  /etc/nginx/sites-available/default
+-'  141  0  /etc/nginx/sites-available/default
 -'  138  0  /etc/nginx/sites-available/default
 -'  111  0  /etc/nginx/sites-available/default
 -'  129  0  /etc/nginx/sites-available/default
@@ -43,7 +48,6 @@
 -'  121  14  /etc/nginx/sites-available/default
 -'  123  18  /etc/nginx/sites-available/default
 -'  127  71  /etc/nginx/sites-available/default
--'  131  34  /etc/nginx/sites-available/default
 -'  42  34  /etc/nginx/sites-available/default
 -'  134  9  /etc/nginx/sites-available/default
 -'  113  0  /etc/nginx/sites-available/default
@@ -128,17 +132,16 @@
 -'  1  4  /var/www/html/phpinfo.php
 -'  5  1  /var/www/html/phpinfo.php
 -'  1  4  /var/www/html/phpinfo.php
--'  5  1  /var/www/html/phpinfo.php
--'  1  4  /var/www/html/phpinfo.php
--'  5  1  /var/www/html/phpinfo.php
 
 # History of marks within files (newest to oldest):
 
+> /var/log/nginx/error.log
+	"	192	39
+
 > /etc/nginx/sites-available/default
-	"	141	0
-	^	141	1
-	.	141	0
-	+	86	0
+	"	131	24
+	^	131	25
+	.	42	34
 	+	87	0
 	+	88	0
 	+	89	0
@@ -238,6 +241,7 @@
 	+	137	0
 	+	138	0
 	+	141	0
+	+	42	34
 
 > /var/www/html/phpinfo.php
 	"	1	4
