@@ -400,3 +400,28 @@ mysql -u root -p
 sudo su -
 mysql version --
 sudo su -
+ps -ef | grep nginx;
+service nginx start
+ps -ef | grep nginx;
+cd /etc/nginx/sites-available/
+vi default 
+sudo service nginx restart
+cd ~
+error log
+vi /var/log/nginx/error.log
+mysql -u root -p
+vi /var/log/nginx/error.log
+mysql -u root -p
+apt-get install mysqli
+apt-get install mysqli-server
+cd /usr/local/src/
+ls
+cd ~
+vi /var/log/nginx/error.log
+mysql -u root -p
+vi /var/log/nginx/error.log
+mysql -u root -p
+git status
+git add .
+git commit -m "product details"
+git push origin master
