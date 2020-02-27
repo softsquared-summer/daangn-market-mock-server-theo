@@ -425,3 +425,9 @@ git status
 git add .
 git commit -m "product details"
 git push origin master
+mysql -u root -p
+git status
+git add .
+git commit -m "modify report, comment"
+git push origin master;
+mysql -u root -p
